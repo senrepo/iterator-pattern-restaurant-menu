@@ -7,6 +7,8 @@ namespace composite_pattern_restaurant_menu
         static void Main(string[] args)
         {
 
+            //Composite patters -> Compose objects in tree structure, in this way treat Menu (Composite elements) and Menu Items (leaf elements) in a same structure.
+            
             MenuComponent allMenu = new Menu("Master Menu", "All Menus Combained..");
             MenuComponent panCakeHouseMenu = new Menu("PanCake House Menu", "Breakfast Items..");
             MenuComponent objectVilleMenu = new Menu("ObjectVille Menu", "Lunch and Dinner Items..");
